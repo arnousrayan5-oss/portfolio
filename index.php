@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rayan Arnous | Junior Web Developer</title>
+
+    <!-- SEO -->
+    <meta name="keywords" content="Rayan Arnous, junior web developer, Angular, Laravel, PHP, portfolio" />
+    <meta name="description" content="Rayan Arnous | Junior Web Developer - I build clean, responsive web applications." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <!-- JS -->
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script defer src="./javascript/scrollreveal.js"></script>
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Rayan Arnous</span>
+          <br />
+          I'm a Junior Web Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#projects">View Projects</a>
+          <a class="cta-btn cta-btn--hero" href="#contact">Contact Me</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div>
+      </a>
+    </div>
+    <!-- END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img class="img-fluid" src="./assets/profile.jpeg"  width="450" height="350" />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I’m a junior web developer focused on building clean, responsive, and user-friendly web applications.
+            </p>
+            <p class="about-wrapper__info-text">
+              I work mainly with JavaScript, Angular, and Laravel, and I enjoy turning ideas into functional, well-structured interfaces.
+            </p>
+            <p class="about-wrapper__info-text">
+              Currently, I’m looking for a junior developer or internship opportunity where I can grow and contribute to real-world projects.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="./assets/Rayan_Arnous_Resume.pdf" class="cta-btn cta-btn--resume">Download Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END About Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Project 1 -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Payscope SaaS</h3>
+              <p class="project-wrapper__text-info">
+                SaaS web application with user authentication and landing page, designed as a foundation for a subscription and payment tracking platform.
+              </p>
+              <p><strong>Tech:</strong> Laravel, PHP, MySQL, Blade</p>
+              <div class="project-wrapper__text-btns">
+                <!-- <a href="#" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a> -->
+                <a href="https://github.com/arnousrayan5-oss/Payscope" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+              </div>
+            </div>
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank">
+                <div class="thumbnail rounded">
+                  <img src="./assets/payscope2.png" class="img-fluid" alt="Payscope SaaS Screenshot" width="1366" height="767" />
+                </div>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Laravel E-commerce Project</h3>
+              <p class="project-wrapper__text-info">
+                Demo project for an e-commerce system built with Laravel, featuring authentication, product management, and full CRUD operations, and API endpoints for frontend integration.
+              </p>
+              <p><strong>Tech:</strong> Laravel, PHP, MySQL, Blade</p>
+              <div class="project-wrapper__text-btns">
+                <!-- <a href="#" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a> -->
+                <a href="https://github.com/arnousrayan5-oss/Laravel-Ecommerce-Admin" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+              </div>
+            </div>
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank">
+                <div class="thumbnail rounded">
+                  <img src="./assets/ecommerce8.png" class="img-fluid" alt="Laravel E-commerce Admin Screenshot" width="1366" height="767" />
+                </div>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">PHP Fullstack Blog</h3>
+              <p class="project-wrapper__text-info">
+                Full-stack blog application built with PHP and MySQL, featuring post creation, editing, and deletion with a responsive frontend.
+              </p>
+              <p><strong>Tech:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+              <div class="project-wrapper__text-btns">
+                <!-- <a href="#" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a> -->
+                <a href="https://github.com/arnousrayan5-oss/PHP-Fullstack-Blog" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+              </div>
+            </div>
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank">
+                <div class="thumbnail rounded">
+                  <img src="./assets/blog.png" class="img-fluid" alt="PHP Fullstack Blog Screenshot" width="1366" height="767" />
+                </div>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Angular Components Demo</h3>
+              <p class="project-wrapper__text-info">
+                Angular project demonstrating core framework concepts including component communication, routing, and reusable UI elements.
+              </p>
+              <p><strong>Tech:</strong> Angular, TypeScript, HTML, CSS</p>
+              <div class="project-wrapper__text-btns">
+                <!-- <a href="#" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a> -->
+                <a href="https://github.com/arnousrayan5-oss/Angular-Components-Demo" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+              </div>
+            </div>
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank">
+                <div class="thumbnail rounded">
+                  <img src="./assets/angular.png" class="img-fluid" alt="Angular Components Demo Screenshot" width="1366" height="767" />
+                </div>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <!-- END Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            I’m currently open to junior web developer and internship opportunities. Feel free to reach out.
+          </p>
+          <a href="mailto:arnousrayan5@gmail.com" class="cta-btn cta-btn--resume">Email Me</a><br>
+          <p class="phone-nbr">Phone: +961 81 631 092</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://twitter.com/yourprofile" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/rayan-arnous-702a8a209/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/arnousrayan5-oss" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> Rayan Arnous. Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+  </body>
+</html>
